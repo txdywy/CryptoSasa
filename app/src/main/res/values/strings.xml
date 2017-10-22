@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">CryptoSasa</string>
+    <string name="action_about">About</string>
+    <string name="action_goto_conversion">Conversion</string>
+    <string name="action_remove_item">Remove</string>
+    <string name="shared_pref_crypto">CRYPTOCOMPARE</string>
+    <string name="empty_view">No items, add \'+\' to get started...</string>
+    <string name="w_main_hint_title">QuickTips</string>
+    <string name="w_main_welcome">Welcome!</string>
+    <string name="gotit_button_text">Got it!</string>
+
+    <string name="w_quick_tips">1. Select your base currency type (BTC/ETH).\n\n
+	2. Select your quote currency from drop down menu (e.g USD, US$).\n\n
+		3. Press add \'+\' button to create your preferred currency tab.\n\n
+        4. Select any currency tab you just created to open the conversion page.\n\n
+        5. Note; you can add or remove as many currency tabs as you wish.
+	</string>
+
+
+    <!-- AboutActivity-->
+    <string name="version_number">Version</string>
+    <string name="about_author">Author: </string>
+    <string name="about_author_names" translatable="false">Levit Nudi</string>
+    <string name="about_affiliation">From Noton Inc, notioninside&#8482;</string>
+    <string name="more_info">More information :</string>
+    <string name="privacy_friendly">This is a simple android application showing the latest exchange rate between cryptocurrencies
+        BTC and ETH and 20 major world currencies.</string>
+    <string name="github" translatable="false"><a href="https://github.com/levitnudi/CryptoSasa">\nProject source code from Github</a></string>
+    <string name="linkein"><a href="https://www.linkedin.com/in/levitnudi/">\nAbout the author (Linkedin)</a></string>
+    <string name="api_url"><a href="https://www.cryptocompare.com/">\nThis application uses CryptoCompare API</a></string>
+
+    <string-array name="currency_array">
+        <item>AED, د.إ</item>
+        <item>AUD, A$</item>
+        <item>BRL, R$</item>
+        <item>CAD, C$</item>
+        <item>CHF, SFr</item>
+        <item>EUR, €</item>
+        <item>GBP, £</item>
+        <item>IDR, Rp</item>
+        <item>INR, ₹</item>
+        <item>JPY, ¥</item>
+        <item>KES, Ksh</item>
+        <item>KRW, ₩</item>
+        <item>NGN, ₦</item>
+        <item>PLN, zł</item>
+        <item>RUB, ₽</item>
+        <item>THB, ฿</item>
+        <item>TRY, ₺</item>
+        <item>TZS, Tsh</item>
+        <item>UAH, ₴</item>
+        <item>USD, US$</item>
+    </string-array>
+
+    <!-- 1	US dollar	87.62	4 458	USD	United States
+    2	European Euro	31.27	1 591	EUR	19 states of the EU
+    3	Japanese yen	21.56	1 097	JPY	Japan
+    4	Pound sterling	12.78	650	GBP	United Kingdom
+    5	Australian dollar	6.94	353	AUD	Australia
+    6	Canadian dollar	5.13	261	CAD	Canada
+    7	Swiss franc	4.78	243	CHF	Switzerland
+    8	Chinese Yuan Renminbi	3.97	202	CNY	China
+    9	Swedish krona	2.22	113	SEK	Sweden
+    10	Mexican peso	2.20	112	MXN	Mexico
+    11	New Zealand dollar	2.06	105	NZD	New Zealand
+    12	Singapore dollar	1.79	91	SGD	Singapore
+    13	Hong Kong dollar	1.73	88	HKD	Hong Kong (China)
+    14	Norwegian krone	1.67	85	NOK	Norway
+    15	South Korean won	1.65	84	KRW	South Korea
+    16	Turkish lira	1.40	71	TRY	Turkey
+    17	Indian rupee	1.14	58	INR	India
+    18	Russian ruble	1.14	58	RUB	Russia
+    19	Brazilian real	1.00	51	BRL	Brazil
+    20	South African rand	1.00	51	ZAR	South Africa
+    21	Danish krone	0.83	42	DKK	Denmark
+    22	Polish zloty	0.69	35	PLN	Poland
+    23	New Taiwan dollar	0.63	32	TWD	Taiwan
+    24	Thai baht	0.43	22	THB	Thailand
+    25	Malaysian ringgit	0.41	20	MYR	Malaysia-->
+
+
+    <!--
+    Australian Dollar
+    0.77710 	0.66200 	87.49810 	0.59439 	0.76021 	0.97338 	1.00000 	6.06333
+    Brazilian Real
+    0.31692 	0.27009 	35.69804 	0.24250 	0.31015 	0.39713 	0.40799 	2.47376
+    British Pound
+    1.30697 	1.11375 	147.20617 	1.00000 	1.27897 	1.63761 	1.68239 	10.20090
+    Canadian Dollar
+    0.79800 	0.68010 	89.89061 	0.61064 	0.78099 	1.00000 	1.02734 	6.22912
+    Chilean Peso
+    0.00158 	0.00135 	0.17790 	0.00121 	0.00155 	0.00198 	0.00203 	0.01233
+    Chinese Yuan Renminbi
+    0.15057 	0.12832 	16.96035 	0.11521 	0.14736 	0.18868 	0.19384 	1.17530
+    Czech Koruna
+    0.04531 	0.03861 	5.10336 	0.03467 	0.04434 	0.05677 	0.05833 	0.35365
+    Danish Krone
+    0.15768 	0.13438 	17.76085 	0.12065 	0.15431 	0.19758 	0.20299 	1.23077
+    Euro
+    1.17340 	1.00000 	132.17200 	0.89787 	1.14835 	1.47037 	1.51057 	9.15909
+    Hong Kong Dollar
+    0.12811 	0.10918 	14.43070 	0.09803 	0.12538 	0.16054 	0.16493 	1.00000
+    Hungarian Forint
+    0.00376 	0.00320 	0.42352 	0.00288 	0.00368 	0.00471 	0.00484 	0.02935
+    Indian Rupee
+    0.01528 	0.01303 	1.72161 	0.01170 	0.01496 	0.01915 	0.01968 	0.11930
+    Indonesian Rupiah
+    0.00007 	0.00006 	0.00834 	0.00006 	0.00007 	0.00009 	0.00010 	0.00058
+    Israeli New Shekel
+    0.28415 	0.24216 	32.00686 	0.21743 	0.27808 	0.35606 	0.36580 	2.21797
+    Japanese Yen
+    0.00888 	0.00757 	1.00000 	0.00679 	0.00869 	0.01112 	0.01143 	0.06930
+    Korean Won
+    0.00087 	0.00074 	0.09837 	0.00067 	0.00085 	0.00109 	0.00112 	0.00682
+    Malaysian Ringgit
+    0.23603 	0.20116 	26.58711 	0.18061 	0.23100 	0.29577 	0.30386 	1.84240
+    Mexican Peso
+    0.05396 	0.04600 	6.07964 	0.04130 	0.05282 	0.06763 	0.06948 	0.42130
+    New Zealand Dollar
+    0.70854 	0.60397 	79.82775 	0.54229 	0.69356 	0.88805 	0.91234 	5.53180
+    Norwegian Krone
+    0.12499 	0.10652 	14.07908 	0.09564 	0.12232 	0.15662 	0.16091 	0.97563
+    Pakistan Rupee
+    0.00949 	0.00809 	1.06917 	0.00726 	0.00929 	0.01189 	0.01222 	0.07409
+    Philippine Peso
+    0.01955 	0.01666 	2.20262 	0.01496 	0.01914 	0.02450 	0.02517 	0.15263
+    Polish Zloty
+    0.27221 	0.23198 	30.66151 	0.20829 	0.26640 	0.34110 	0.35042 	2.12474
+    Russian Ruble
+    0.01720 	0.01466 	1.93720 	0.01316 	0.01683 	0.02155 	0.02214 	0.13424
+    Singapore Dollar
+    0.73296 	0.62465 	82.56158 	0.56086 	0.71732 	0.91847 	0.94358 	5.72125
+    South African Rand
+    0.07289 	0.06212 	8.20990 	0.05577 	0.07133 	0.09133 	0.09383 	0.56892
+    Swedish Krona
+    0.12319 	0.10499 	13.87672 	0.09427 	0.12056 	0.15437 	0.15859 	0.96161
+    Swiss Franc
+    1.02177 	0.87082 	115.09781 	0.78188 	1.00000 	1.28042 	1.31543 	7.97590
+    Taiwan Dollar
+    0.03294 	0.02807 	3.71058 	0.02521 	0.03224 	0.04128 	0.04241 	0.25713
+    Thai Baht
+    0.02993 	0.02551 	3.37116 	0.02290 	0.02929 	0.03750 	0.03853 	0.23361
+    Turkish Lira
+    0.27669 	0.23580 	31.16661 	0.21172 	0.27078 	0.34672 	0.35620 	2.15974
+    US Dollar
+    1.00000 	0.85223 	112.64067 	0.76513 	0.97870 	1.25314 	1.28684 	7.80563-->
+</resources>
