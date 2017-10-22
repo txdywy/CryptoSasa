@@ -7,7 +7,7 @@ currency including Naira. Clicking each card should take you to conversion scree
 User should get conversion result.
 
 # Classes
-This project has 4 java classes
+This project has 5 java classes
 1. AboutActivity
 2. HomeActivity
 3. ConversionActivity
