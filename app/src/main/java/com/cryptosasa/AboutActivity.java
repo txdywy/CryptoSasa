@@ -13,7 +13,7 @@ import android.widget.TextView;
 
 
 /**
- * Created by yonjuni on 15.06.16.
+ * Created by Levit Nudi on 14/10/17.
  */
 public class AboutActivity extends AppCompatActivity {
     @Override
