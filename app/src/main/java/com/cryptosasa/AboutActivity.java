@@ -28,7 +28,7 @@ public class AboutActivity extends AppCompatActivity {
 
         ActionBar ab = getSupportActionBar();
         ab.setTitle(Html.fromHtml("<font color=#ffffff>" + getString(R.string.app_name) + "</font>"));
-        //ab.setIcon(getResources().getDrawable(R.drawable.ic_action_back));
+        //ab.setIcon(getResources().getDrawable(R.drawable.ic_action_back)); white back button
         if(ab != null) {
             ab.setDisplayHomeAsUpEnabled(true);
 
